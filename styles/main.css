@@ -1,0 +1,48 @@
+body {
+	background-color: grey;
+}
+
+a.main-link {
+	color: black;
+	text-decoration: none;
+	background-color: lightgrey;
+	padding: .5em;
+	border-radius: .5em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+a.main-link:hover {
+	background-color: darkgray;
+}
+
+div.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+div.poem {
+	color: black;
+	font-family: monospace;
+	background-color: lightgrey;
+	padding: .5em;
+	margin: .5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	border-radius: .5em;
+	white-space: pre-wrap;
+	max-width: 1000px;
+}
+
+div.poem:first-of-type {
+   margin-top: 1.5em;
+}
+
+.to-right {
+	margin-left: auto;
+	margin-right: 0;
+	width: fit-content;
+	display: block;
+}
